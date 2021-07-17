@@ -8,7 +8,11 @@
   }
 
   h2 {
-    font-size: 46px;
+    font-size: 42px;
+  }
+
+  button {
+    margin: 0 auto;
   }
 
   .wrapper {
@@ -17,12 +21,18 @@
     padding: 0 15px;
   }
 
+  .first-screen {
+    height: auto;
+  }
+
   .first-screen_left {
     width: 100%;
-    padding-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
   }
 
   .first-screen_left h4 {
+    margin-top: 40px;
     text-align: center;
   }
 
@@ -39,24 +49,40 @@
     height: auto;
   }
 
+  .third-screen_header {
+    margin: 0;
+  }
+
   .third-screen_content {
     display: block;
   }
 
   .third-screen_content div {
     width: 100%;
+    padding-top: 20px;
+  }
+
+  .discover-btn {
+    margin: 50px auto 90px;
   }
 
   .fourth-screen {
     height: auto;
   }
 
+  .fourth-screen_header {
+    padding-top: 30px;
+  }
+
   .fourth-screen_content {
     display: block;
+    margin-top: 30px;
   }
 
   .fourth-screen_content div {
     width: 100%;
+    margin: 0;
+    padding-bottom: 30px;
   }
 
   .fifth-screen {
@@ -66,21 +92,41 @@
 
   .fifth-screen_left {
     width: 100%;
+    margin-top: 80px;
     text-align: center;
   }
 
   .fifth-screen_right {
     width: 100%;
+    margin-top: 50px;
     margin-left: 0;
+  }
+
+  .sixth-screen {
+    display: block;
+    height: auto;
   }
 
   .sixth-screen_left {
     width: 100%;
+    padding-top: 120px;
+    padding-bottom: 90px;
   }
 
   .seventh-screen {
     display: block;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
     border-radius: 0;
+  }
+
+  .get-started-btn {
+    margin-top: 50px;
+  }
+
+  .footer-top_right {
+    padding-right: 75px;
   }
 
   .footer-center {
@@ -94,5 +140,10 @@
 
   .footer-bottom_left {
     display: block;
+    margin-top: 30px;
+  }
+
+  .footer-bottom_left > div {
+    margin-bottom: 8px;
   }
 }
