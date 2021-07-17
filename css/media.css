@@ -4,7 +4,7 @@
   }
 
   h1 {
-    font-size: 58px;
+    font-size: 50px;
   }
 
   h2 {
@@ -21,13 +21,18 @@
     padding: 0 15px;
   }
 
+  .mobile-menu-btn {
+    display: flex;
+  }
+
   .first-screen {
     height: auto;
+    background: #8bd4d6;
   }
 
   .first-screen_left {
     width: 100%;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-bottom: 30px;
   }
 
@@ -41,8 +46,13 @@
     margin-right: auto;
   }
 
+  .second-screen {
+    height: auto;
+  }
+
   .second-screen_right {
     width: 100%;
+    padding-bottom: 100px;
   }
 
   .third-screen {
