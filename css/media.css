@@ -1,0 +1,98 @@
+@media screen and (max-width: 480px) {
+  .header_menu, .first-screen_right, .second-screen_left, .sixth-screen_right {
+    display: none;
+  }
+
+  h1 {
+    font-size: 58px;
+  }
+
+  h2 {
+    font-size: 46px;
+  }
+
+  .wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0 15px;
+  }
+
+  .first-screen_left {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .first-screen_left h4 {
+    text-align: center;
+  }
+
+  .talk-btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .second-screen_right {
+    width: 100%;
+  }
+
+  .third-screen {
+    height: auto;
+  }
+
+  .third-screen_content {
+    display: block;
+  }
+
+  .third-screen_content div {
+    width: 100%;
+  }
+
+  .fourth-screen {
+    height: auto;
+  }
+
+  .fourth-screen_content {
+    display: block;
+  }
+
+  .fourth-screen_content div {
+    width: 100%;
+  }
+
+  .fifth-screen {
+    display: block;
+    height: auto;
+  }
+
+  .fifth-screen_left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .fifth-screen_right {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .sixth-screen_left {
+    width: 100%;
+  }
+
+  .seventh-screen {
+    display: block;
+    border-radius: 0;
+  }
+
+  .footer-center {
+    display: block;
+  }
+
+  .footer-center > div {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .footer-bottom_left {
+    display: block;
+  }
+}

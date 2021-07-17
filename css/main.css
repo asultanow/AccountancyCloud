@@ -6,6 +6,7 @@
 }
 
 button {
+  display: block;
   padding: 14px 25px;
   border: none;
   border-radius: 100px;
@@ -99,7 +100,7 @@ ul {
   margin-top: 79px;
 }
 
-.first-screen_left button {
+.talk-btn {
   margin-top: 27px;
   font-size: 22px;
 }
